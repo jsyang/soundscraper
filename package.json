@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "mkdir -p mp3 ; node .",
-    "convert" "./convertMP3toWAV.sh"
+    "convert": "./convertMP3toWAV.sh"
   },
   "author": "",
   "license": "ISC",
