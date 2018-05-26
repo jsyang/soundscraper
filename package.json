@@ -4,7 +4,7 @@
   "description": "Scrape sounds",
   "main": "index.js",
   "scripts": {
-    "start": ".",
+    "start": "mkdir -p mp3 ; node .",
     "convert" "./convertMP3toWAV.sh"
   },
   "author": "",
