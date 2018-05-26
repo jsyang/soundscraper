@@ -1,0 +1,15 @@
+{
+  "name": "soundscraper",
+  "version": "1.0.0",
+  "description": "Scrape sounds",
+  "main": "index.js",
+  "scripts": {
+    "start": ".",
+    "convert" "./convertMP3toWAV.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^1.4.0"
+  }
+}
