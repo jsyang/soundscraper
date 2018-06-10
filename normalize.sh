@@ -7,6 +7,6 @@
 # sudo pip install .
 
 pushd mp3
-ffmpeg-normalize *.mp3 -pr
+ffmpeg-normalize *.mp3 -c:a mp2 -ext mp2 -ofmt mp2
 
 
