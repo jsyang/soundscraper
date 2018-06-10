@@ -14,4 +14,6 @@ yarn start
 # Convert all MP3 files to WAV for playback with `aplay` which is pre-installed on Raspbian
 yarn convert
 
+# Normalize loudness for all mp3 files
+yarn normalize
 ```

@@ -22,7 +22,7 @@ puppeteer.launch().then(async browser => {
     page.on('load', ()=>{
       page.close();
     });
-    page.goto(`https://www.soundsnap.com/search/audio/beep/shortest/2sec?page=${pageNumber}`);
+    page.goto(`https://www.soundsnap.com/search/audio/instrument/shortest/2sec?page=${pageNumber}`);
   };
 
   let i;
